@@ -1,6 +1,33 @@
 version: "2.0"
 
 nlu:
+- intent: appointment 
+  examples: |
+    - make appointment
+    - book an appointment
+    - book a meeting
+    - arrange an appointment
+    - arrange a meeting
+    - appointment reminder
+    - appointment reservation
+
+- intent: to_do
+  examples: |
+    - stuff to do
+    - plan
+    - create a to do list
+    - make a plan
+    - write a to do list
+    - think what to do
+
+- intent: timer
+  examples: |
+    - set a timer
+    - start a countdown
+    - time it
+    - snooze
+    - stop timer
+
 - intent: greet
   examples: |
     - hey
