@@ -1,6 +1,18 @@
 version: "2.0"
 
 nlu:
+- intent: help
+  examples: |
+    - help
+    - help me
+    - I need help
+    - please help
+    - give me a hint
+    - hint
+    - I need a hint
+    - can you give me a hint?
+    - can you please help me?
+
 - intent: appointment 
   examples: |
     - make appointment
