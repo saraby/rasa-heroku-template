@@ -1,6 +1,36 @@
 version: "2.0"
 
 nlu:
+- intent: eat
+  examples: |
+    - eat
+    - go eat
+    - eat something
+    - eat dinner
+    - make some lunch
+    - eat breakfast
+    - prepare some food
+    - order food
+
+- intent: study
+  examples: |
+    - study
+    - go study
+    - do homework
+    - go work on assignments
+    - assignment time
+    - time to study
+    - have some work for school
+
+- intent: play
+  examples: |
+    - play
+    - let's play
+    - play again
+    - why not play again?
+    - let's have another round
+    - play some more
+
 - intent: help
   examples: |
     - help
